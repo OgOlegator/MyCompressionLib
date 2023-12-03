@@ -49,7 +49,7 @@ namespace MyCompressionLib
         /// <summary>
         /// Алгоритм декомпрессии строки, в форме преобразованной в методе Compression()
         /// </summary>
-        /// <param name="input">Входная строка с буквами латинского алфавита и цифрами, в нижнем регистре</param>
+        /// <param name="input">Входная строка с буквами латинского алфавита в нижнем регистре и цифрами</param>
         /// <returns></returns>
         /// <exception cref="ArgumentNullException">empty string</exception>
         public static string Decompression(string input)
